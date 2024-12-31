@@ -1,0 +1,42 @@
+﻿body {
+    background-color: silver;
+    font-family: Arial, sans-serif;
+}
+
+.change-password-container {
+    background-color: cornsilk;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    text-align: center;
+}

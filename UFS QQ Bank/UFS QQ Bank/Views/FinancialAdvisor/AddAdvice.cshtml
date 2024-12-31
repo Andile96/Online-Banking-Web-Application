@@ -1,0 +1,57 @@
+﻿@model AdviceViewModel
+
+@{
+    ViewBag.Title = "Add Advice";
+}
+
+
+<style>
+    .form-container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="form-container">
+                <h2>Add Advice for Account @Model.AccountNumber</h2>
+
+                <form asp-action="AddAdvice" method="post">
+                    <div class="form-group mb-3">
+                        <label for="Comment">Advice/Comment</label>
+                        <textarea asp-for="Comment" class="form-control" rows="5" placeholder="Write your advice here..." required></textarea>
+                        <span asp-validation-for="Comment" class="text-danger"></span>
+                    </div>
+
+                    <input type="hidden" asp-for="AccountNumber" />
+                    <input type="hidden" asp-for="userID " />
+
+                    <button type="submit" class="btn btn-primary">Submit Advice</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

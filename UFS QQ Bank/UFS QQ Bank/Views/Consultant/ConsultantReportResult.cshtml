@@ -1,0 +1,31 @@
+﻿@model ConsultantActivityReportViewModel
+
+@{
+    ViewBag.Title = "Consultant Activity Report";
+}
+
+<h2>Consultant Activity Report</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h3>Consultant: @Model.ConsultantName</h3>
+        <p>Report Period: @Model.StartDate.ToShortDateString() - @Model.EndDate.ToShortDateString()</p>
+        <ul class="list-group">
+            <li class="list-group-item">Total Clients Registered: <strong>@Model.TotalClientsRegistered</strong></li>
+            <li class="list-group-item">Total Client Info Updated: <strong>@Model.TotalClientInfoUpdated</strong></li>
+            <li class="list-group-item">Total Deposits Assisted: <strong>@Model.TotalDepositsAssisted</strong></li>
+            <li class="list-group-item">Total Withdrawals Assisted: <strong>@Model.TotalWithdrawalsAssisted</strong></li>
+        </ul>
+        <hr />
+        <h4>Client Activities</h4>
+        <ul class="list-group">
+            @foreach (var activity in Model.ClientActivities)
+            {
+                <li class="list-group-item">
+                    <strong>@activity.ClientName</strong> - @activity.ActivityType (Date: @activity.ActivityDate.ToShortDateString())
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+

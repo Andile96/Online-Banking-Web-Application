@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|e:\\csiq3784\\project\\ufs qq bank\\ufs qq bank\\views\\consultant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|solutionrelative:ufs qq bank\\views\\consultant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|e:\\csiq3784\\project\\ufs qq bank\\ufs qq bank\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|solutionrelative:ufs qq bank\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|e:\\csiq3784\\project\\ufs qq bank\\ufs qq bank\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A1CB53-4CFE-479D-B0F9-76131167C0A5}|UFS QQ Bank\\UFS QQ Bank.csproj|solutionrelative:ufs qq bank\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Consultant\\Index.cshtml",
+              "RelativeDocumentMoniker": "UFS QQ Bank\\Views\\Consultant\\Index.cshtml",
+              "ToolTip": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Consultant\\Index.cshtml",
+              "RelativeToolTip": "UFS QQ Bank\\Views\\Consultant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T10:31:25.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UFS QQ Bank\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UFS QQ Bank\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T10:30:37.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "UFS QQ Bank\\Views\\Clients\\Index.cshtml",
+              "ToolTip": "E:\\CSIQ3784\\Project\\UFS QQ Bank\\UFS QQ Bank\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "UFS QQ Bank\\Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T10:30:02.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

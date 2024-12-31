@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Advice>
+
+@{
+    ViewBag.Title = "All Advice";
+}
+
+<div class="container mt-5">
+    <h2>All Advice</h2>
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Advice ID</th>
+                <th>Advisor</th>
+                <th>Account Holder ID</th>
+                <th>Account Number</th>
+                <th>Comment</th>
+                <th>Date Given</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var advice in Model)
+            {
+                <tr>
+                    <td>@advice.AdviceId</td>
+                    <td>@advice.AdvisorId</td>
+                    <td>@advice.AccountHolderId</td>
+                    <td>@advice.AccountNumber</td>
+                    <td>@advice.Comment</td>
+                    <td>@advice.DateGiven.ToString("MMMM dd, yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

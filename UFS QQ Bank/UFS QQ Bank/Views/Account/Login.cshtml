@@ -1,0 +1,53 @@
+﻿@model LoginModel
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<link href="~/styles/account/loginstylesheet.css" rel="stylesheet" />
+
+<div class="login-page">
+    <div class="login-card ">
+        <div class="card-header login-header">
+            <h2>Log In</h2>
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" asp-action="Login" asp-controller="Account">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Register" asp-controller="Account">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+            <form asp-action="Login" asp-controller="Account" method="post">
+
+                <input type="hidden" asp-for="ReturnUrl" />
+
+                
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" class="form-control" placeholder="Email" required />
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <div><span asp-validation-for="Email" class="text-danger"></span></div>
+                </div>
+
+               
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" class="form-control" placeholder="Password" required />
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <div><span asp-validation-for="Password" class="text-danger"></span></div>
+                </div>
+
+               
+                <div class="mb-2">
+                    <input type="checkbox" title="Remember Me" asp-for="RememberMe" class="form-check-inline" />
+                    <label class="fw-bold" style="color:#000000" for="RememberMe">Remember Me</label>
+                </div>
+
+               
+                <button class="btn btn-primary" type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+</div>

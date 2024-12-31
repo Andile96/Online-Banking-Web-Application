@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UFS_QQ_Bank
+build_property.RootNamespace = UFS_QQ_Bank
+build_property.ProjectDir = E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/AccountInfor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxBY2NvdW50SW5mb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/Balance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxCYWxhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/TransactionHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxUcmFuc2FjdGlvbkhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/ClientMenu/TransferMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50TWVudVxUcmFuc2Zlck1vbmV5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/AccountInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xBY2NvdW50SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/ClientUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDbGllbnRVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/AdminViewReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxBZG1pblZpZXdSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/ClientDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxDbGllbnREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/ConsultantReportResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxDb25zdWx0YW50UmVwb3J0UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/GenerateReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxHZW5lcmF0ZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Consultant/SearchClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudFxTZWFyY2hDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/FinancialAdvisor/AddAdvice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jaWFsQWR2aXNvclxBZGRBZHZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/FinancialAdvisor/BankAccounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jaWFsQWR2aXNvclxCYW5rQWNjb3VudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/FinancialAdvisor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jaWFsQWR2aXNvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/FinancialAdvisor/ViewAllAdvice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jaWFsQWR2aXNvclxWaWV3QWxsQWR2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Notifications/AllNotifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xBbGxOb3RpZmljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Reviews/ViewReviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xWaWV3UmV2aWV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Reviews/WriteReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3c1xXcml0ZVJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/RoleAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/RoleAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/RoleAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Shared/_ClientRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DbGllbnRSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSIQ3784/Project/UFS QQ Bank/UFS QQ Bank/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

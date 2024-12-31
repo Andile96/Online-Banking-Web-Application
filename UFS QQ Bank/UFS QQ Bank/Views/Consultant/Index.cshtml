@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Consultant Dashboard";
+}
+
+<link href="~/styles/consultant/index.css" rel="stylesheet" />
+
+<div class="bg-image"></div>
+
+<div class="container dashboard">
+    <h2 class="text-center mb-5">Consultant Dashboard</h2>
+    <div class="row justify-content-center">
+     
+        <div class="col-md-3 mb-4">
+            <a asp-controller="Clients" asp-action="ClientUsers" class="tile">
+                <i class="fas fa-users-cog"></i>
+                <h4>Manage Clients</h4>
+                <p>View and manage clients.</p>
+            </a>
+        </div>
+       
+        <div class="col-md-3 mb-4">
+            <a asp-controller="Reviews" asp-action="ViewReviews" class="tile">
+                <i class="fas fa-star"></i>
+                <h4>View Ratings</h4>
+                <p>Check client feedback and ratings.</p>
+            </a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <a asp-action="GenerateReport" class="tile">
+                <i class="fas fa-file-alt"></i>
+                <h4>Generate Report</h4>
+                <p>Create and download reports.</p>
+            </a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <a asp-action="SearchClient" class="tile">
+                <i class="fas fa-money-check-alt"></i>
+                <h4>Handle Transactions</h4>
+                <p>Withdraw or deposit cash.</p>
+            </a>
+        </div>
+    </div>
+</div>

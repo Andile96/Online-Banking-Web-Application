@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>UFS_QQ_Bank</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\javaScript\Admin\" />
+    <Folder Include="wwwroot\javaScript\ClientMenu\" />
+    <Folder Include="wwwroot\javaScript\Clients\" />
+    <Folder Include="wwwroot\javaScript\Consultant\" />
+    <Folder Include="wwwroot\javaScript\FinacialAdvisor\" />
+    <Folder Include="wwwroot\javaScript\Home\" />
+    <Folder Include="wwwroot\javaScript\Notifications\" />
+    <Folder Include="wwwroot\javaScript\Reviews\" />
+    <Folder Include="wwwroot\javaScript\RoleAdmin\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\javaScript\Shared\" />
+    <Folder Include="wwwroot\styles\FinacialAdvisor\" />
+    <Folder Include="wwwroot\styles\Home\" />
+    <Folder Include="wwwroot\styles\Shared\" />
+    <Folder Include="wwwroot\styles\RoleAdmin\" />
+    <Folder Include="wwwroot\styles\Notifications\" />
+    <Folder Include="wwwroot\styles\Reviews\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

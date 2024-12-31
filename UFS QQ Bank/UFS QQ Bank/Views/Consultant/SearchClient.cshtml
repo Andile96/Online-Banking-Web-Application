@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Search Client by Account Number";
+}
+
+<h2>Search Client</h2>
+
+<form asp-action="SearchClient" method="post">
+    <div class="form-group">
+        <label for="AccountNumber">Enter Account Number</label>
+        <input type="text" name="accountNumber" class="form-control" placeholder="Account Number" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Search</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger mt-3">
+        @ViewBag.Message
+    </div>
+}

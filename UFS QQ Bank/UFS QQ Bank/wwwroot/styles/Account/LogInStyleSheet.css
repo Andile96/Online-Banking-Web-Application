@@ -1,0 +1,64 @@
+﻿body {
+    background-image: url('/Images/20200430211816-378f6275.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(15,23,42,0.3);
+    box-shadow: 10px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    
+}
+
+.login-card {
+    width: 400px;
+    max-width: 450px;
+}
+
+.login-header {
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+.nav-tabs {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+.nav-tabs .nav-item{
+    width:50%;
+}
+
+.nav-tabs .nav-link {
+    color: #ffffff;
+}
+
+    .nav-tabs .nav-link.active {
+        background-color: #40587C;
+        border-color: #40587C;
+        
+    }
+
+.form-floating label {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #40587C;
+    border-color: #40587C;
+}
+
+.form-check-inline {
+    margin-right: 0.25rem;
+}
+
+

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BankAccount>
+
+@{
+    ViewData["Title"] = "Bank Accounts";
+}
+
+<h2>Bank Accounts</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Account No</th>
+            <th>Account Holder</th>
+            <th>Balance</th>
+            <th>Account Type</th>
+            <th>Created Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                <td>@account.AccountNumber</td>
+                <td>@account.AccountHolder</td>
+                <td>@account.AccountBalance.ToString("C")</td>
+                <td>@account.AccountType</td>
+                <td>@account.AccountOpenDate.ToShortDateString()</td>
+                <td>
+                    <a asp-action="AddAdvice" asp-route-id="@account.AccountNumber" class="btn btn-primary">Add Advice</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

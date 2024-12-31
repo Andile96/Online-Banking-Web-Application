@@ -1,0 +1,169 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/javaScript/notifi.js"></script>
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+   <link href="~/styles/profile.css" rel="stylesheet" />
+    <link rel="stylesheet" asp-href-include="/lib/font-awesome/css/all.min.css" />
+    <link href="~/styles/siteforms.css" rel="stylesheet" />
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHqT8A2lXnT9g3D4QZ7FwzqW5y3BbXho5cqSXZ8IHpDdvOE8iNRd7UAA8iyCJDthITG1oYQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>QK Bank - @ViewData["Title"]</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark rounded-navbar" >
+        <div class="container">
+            
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                <img style="height: 30px" src="/Images/vision-130---combined-logo-chrome.png" />
+                <strong>QK Bank </strong>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+         
+            <div class="collapse navbar-collapse"
+                 id="MyNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="About">About</a></li>
+                    @if (User.IsInRole("Client"))
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="ClientMenu" asp-action="Index">Bank Account</a></li>
+                    }
+                    @if (User.IsInRole("Financial advisor"))
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="FinancialAdvisor" asp-action="Index">Bank Account</a></li>
+                    }
+                    
+                    @if (User.IsInRole("Admin") || User.IsInRole("Consultant"))
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="Clients" asp-action="ClientUsers">Clients</a></li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item"><a class="nav-link" asp-controller="FinancialAdvisor" asp-action="ViewAllAdvice">View Finacial Advise</a></li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Admin</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-controller="Admin"
+                                       asp-action="Index">user Management</a>
+                                    <a class="dropdown-item" asp-controller="RoleAdmin"
+                                       asp-action="Index">Role Management</a>
+                                </div>
+                            </li>
+                        }
+                    }
+                </ul>
+              
+                <ul class="navbar-nav navbar-right">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if(User.IsInRole("Client"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell"></i>
+                                    <span class="badge bg-danger">@ViewBag.UnreadNotificationsCount ?? 0</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="notificationDropdown">
+                                    <li class="dropdown-header">Notifications</li>
+                                    @if (ViewBag.Notifications != null && ViewBag.Notifications.Count > 0)
+                                    {
+                                        @foreach (var notification in ViewBag.Notifications)
+                                        {
+                                            <li class="dropdown-item">
+                                                <span class="text-secondary">@notification.Message</span><br />
+                                                <small class="text-muted">@notification.Created_At.ToString("MMMM dd, yyyy HH:mm")</small>
+                                            </li>
+                                            <hr class="dropdown-divider">
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown-item text-center">No new notifications</li>
+                                    }
+                                    <li><a class="dropdown-item text-center" asp-action="AllNotifications" asp-controller="Notifications">View All</a></li>
+                                </ul>
+                            </li>
+
+                        }
+                       
+                        <li class="nav-link"> welcome, @User.Identity.Name</li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="profile-avatar">
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            if (ViewBag.ProfilePicture != null)
+                                            {
+                                            <!-- Display Profile Picture -->
+                                            <img src="@ViewBag.ProfilePicture" alt="Profile Picture" class="rounded-circle" style="width: 35px; height: 35px;">
+                                            }
+                                            else if (ViewBag.Initials != null)
+                                            {
+                                            <!-- Display User Initials -->
+                                            <div class="profile-initials rounded-circle bg-primary text-white text-center" style="width: 35px; height: 35px; line-height: 40px;">
+                                                    @ViewBag.Initials
+                                            </div>
+                                            }
+                                        }
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
+                                <a class="dropdown-item" href="@Url.Action("Profile", "User")">Profile</a>
+                                <a class="dropdown-item" href="@Url.Action("Logout", "Account")">Logout</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                <button class="btn btn-link nav-link" type="submit">Log Out</button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Log in</a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main class="container d-flex justify-content-center align-items-center">
+        <div class="pb-0">
+            @RenderBody()
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="border-top footer  text-center small">
+            <p>
+                 QWAQWA KOVSIE BANK<br />
+                <span class="fas fa-copyright"></span> 2024-A division of the of University of the FreeState 
+            </p>
+        </div>
+    </div>
+   
+
+    <!-- JavaScript -->
+    <script asp-src-include="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>

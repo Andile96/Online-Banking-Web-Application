@@ -1,0 +1,32 @@
+﻿@model BankAccount
+
+@{
+    ViewBag.Title = "View Balance";
+}
+
+<link href="~/styles/clientmenu/balance.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Your Bank Balance</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Account Details</h5>
+                </div>
+                <div class="card-body text-center">
+                    <p><strong>Account Holder:</strong> @Model.AccountHolder</p>
+                    <p><strong>Account Number:</strong> @Model.AccountNumber</p>
+                    <p><strong>Account Type:</strong> @Model.AccountType</p>
+                    <h3 class="text-success mt-3"><strong>Balance:</strong> @Model.AccountBalance.ToString("C")</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-controller="ClientMenu" asp-action="Index" class="btn btn-outline-danger">Back to Menu</a>
+</div>
+
+

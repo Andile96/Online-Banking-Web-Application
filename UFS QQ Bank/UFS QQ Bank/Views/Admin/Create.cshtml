@@ -1,0 +1,52 @@
+﻿@model CreateEmployeeUserViewModel
+
+@{
+    ViewData["Title"] = "Create User";
+}
+
+<link href="~/styles/admin/create.css" rel="stylesheet" />
+
+<div class="form-container">
+    <div class="form-title">
+        <h4>Create User</h4>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <form class="row g-3" asp-action="Create" method="post">
+        <div class="form-floating col-md-6">
+            <input asp-for="LastName" class="form-control" placeholder="LastName" required />
+            <label asp-for="LastName" class="form-label"></label>
+        </div>
+        <div class="form-floating col-md-6">
+            <input asp-for="FirstName" class="form-control" placeholder="FirstName" required />
+            <label asp-for="FirstName" class="form-label"></label>
+        </div>
+        <div class="form-floating col-md-6">
+            <input asp-for="Email" class="form-control" type="email" placeholder="Email" required />
+            <label asp-for="Email" class="form-label"></label>
+        </div>
+        <div class="form-floating col-md-6">
+            <select class="form-select" asp-for="Role" required id="roleDropdown">
+                <option selected>Select user role</option>
+                <option value="Consultant">Consultant</option>
+                <option value="Financial advisor">Financial Advisor</option>
+            </select>
+            <label asp-for="Role"></label>
+        </div>
+        <div class="form-floating col-md-6">
+            <input asp-for="StaffStudentNumber" class="form-control" placeholder="StaffStudentNumber" required />
+            <label asp-for="StaffStudentNumber" class="form-label"></label>
+        </div>
+        <div class="form-floating col-md-6">
+            <input asp-for="Password" class="form-control" type="password" placeholder="Password" required />
+            <label asp-for="Password" class="form-label"></label>
+        </div>
+
+        <div class="col-12 d-flex justify-content-between mt-3">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+

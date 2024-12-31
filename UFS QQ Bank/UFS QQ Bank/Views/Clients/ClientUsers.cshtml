@@ -1,0 +1,85 @@
+﻿@model AppViewModel
+@{
+    ViewData["Title"] = "Client";
+}
+
+<link href="~/styles/clients/clientuser.css" rel="stylesheet" />
+
+<h2>QK Bank Client's </h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="btn-close"
+                data-bs-dismiss="alert" aria-label="Close">
+        </button>
+        @TempData["Message"]
+    </div>
+}
+
+<p>
+    <a class="btn btn-outline-danger" asp-controller="Clients" asp-action="Add">
+        <i class="fa fa-user-plus"></i> Add New Client
+    </a>
+</p>
+
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover table-custom">
+        <thead>
+            <tr>
+                <th class="text-nowrap">Last Name</th>
+                <th class="text-nowrap">First Name</th>
+                <th class="text-nowrap">Gender</th>
+                <th class="text-nowrap">Date of Birth</th>
+                <th class="text-nowrap">ID/Passport No</th>
+                <th class="text-nowrap">Mobile No</th>
+                <th class="text-nowrap">Email</th>
+                <th class="text-nowrap">User Type</th>
+                <th class="text-nowrap">Staff/Student No</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in Model.ClientUsers)
+            {
+                <tr>
+                    <td class="text-nowrap">@client.User.LastName</td>
+                    <td class="text-nowrap">@client.User.FirstName</td>
+                    <td class="text-nowrap">@client.User.Gender</td>
+                    <td class="text-nowrap">@client.User.DateOfBirth</td>
+                    <td class="text-nowrap">@client.User.IDOrPassportNumber</td>
+                    <td class="text-nowrap">@client.User.Phone</td>
+                    <td class="text-nowrap">@client.User.Email</td>
+                    <td class="text-nowrap">@client.User.UserType</td>
+                    <td class="text-nowrap">@client.User.EmployeeOrStudentNumber</td>
+                    <td class="text-center">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-cog"></i> Options
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" asp-action="AccountInfo" asp-controller="Clients" asp-route-id="@client.User.Id">
+                                        <i class="fa-solid fa-id-card"></i> Account Info
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-action="Edit" asp-controller="Clients" asp-route-id="@client.User.Id">
+                                        <i class="fa-solid fa-edit"></i> Edit
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" asp-action="Delete" asp-controller="Clients" asp-route-id="@client.User.Id">
+                                        <i class="fa-solid fa-trash"></i> Delete
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

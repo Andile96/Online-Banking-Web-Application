@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ConsultantActivityReportViewModel>
+
+@{
+    ViewBag.Title = "All Consultant Reports";
+}
+
+<h2>All Consultant Reports</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Consultant</th>
+            <th>Report Period</th>
+            <th>Total Clients Registered</th>
+            <th>Total Client Info Updated</th>
+            <th>Total Deposits Assisted</th>
+            <th>Total Withdrawals Assisted</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var report in Model)
+        {
+            <tr>
+                <td>@report.ConsultantName</td>
+                <td>@report.StartDate.ToShortDateString() - @report.EndDate.ToShortDateString()</td>
+                <td>@report.TotalClientsRegistered</td>
+                <td>@report.TotalClientInfoUpdated</td>
+                <td>@report.TotalDepositsAssisted</td>
+                <td>@report.TotalWithdrawalsAssisted</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,95 @@
+﻿@model CreateClientUserModel
+
+@{
+    ViewBag.Title = "Register Client";
+}
+
+<script src="~/javascript/account/register.js"></script>
+<script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<div class="row justify-content-center">
+    <div class="col-7 mt-5">
+
+        <div class="card login-logout-card">
+
+            <div class="card-header">
+                <h2 class="text-center">Register User</h2>
+            </div>
+            <div class="card-body">
+                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                <form class="row g-3" asp-action="Add" method="post">
+
+                    <div class="form-floating col-md-4">
+
+                        <input asp-for="LastName" class="form-control" placeholder="LastName" required />
+                        <label asp-for="LastName" class="form-label"></label>
+                    </div>
+                    <div class="form-floating col-md-4">
+
+                        <input asp-for="FirstName" class="form-control" placeholder="FirstName" required />
+                        <label asp-for="FirstName" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating col-md-4">
+                        <select class="form-select" asp-for="Gender" placeholder="Gender" required>
+                            <option selected>Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label asp-for="Gender"></label>
+                    </div>
+
+                    <div class="form-floating col-md-6">
+
+                        <input asp-for="DateOfBirth" class="form-control text-center" type="date" placeholder="DoB" required />
+                        <label asp-for="DateOfBirth" class="form-label"></label>
+                    </div>
+                    <div class="form-floating col-md-6">
+
+                        <input asp-for="IDPassportNumber" class="form-control" placeholder="IDPassport" required />
+                        <label asp-for="IDPassportNumber" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating col-md-6">
+
+                        <input asp-for="Phone" class="form-control" placeholder="Phone" required />
+                        <label asp-for="Phone" class="form-label"></label>
+                    </div>
+                    <div class="form-floating col-md-6">
+
+                        <input asp-for="Email" class="form-control" type="email" placeholder="email" required />
+                        <label asp-for="Email" class="form-label"></label>
+                    </div>
+                    <div class="form-floating col-md-6">
+                        <select class="form-select" asp-for="UserType" placeholder="UserType" required id="userTypeDropdown">
+                            <option selected>Select user type</option>
+                            <option value="Staff">Staff</option>
+                            <option value="Student">Student</option>
+                            <option value="External User">External user</option>
+                        </select>
+                        <label asp-for="UserType"></label>
+                    </div>
+                    <div class="form-floating col-md-6" id="staffStudentNumberContainer" style="display:none;">
+                        <input asp-for="StaffStudentNumber" class="form-control" placeholder="StaffStudentNumber" required />
+                        <label asp-for="StaffStudentNumber" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating col-md-6">
+
+                        <input asp-for="Password" class="form-control" type="password" placeholder="Password" required />
+                        <label asp-for="Password" class="form-label"></label>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary" type="submit">Add Client</button>
+                        <a asp-controller="Clients" asp-action="ClientUsers" class="btn btn-outline-danger">Cancel</a>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+

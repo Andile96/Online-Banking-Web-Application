@@ -1,0 +1,86 @@
+﻿body {
+    margin-bottom: 60px;
+}
+
+.card .card-header {
+    padding: 0px 0px 12px 0px;
+}
+
+.card ul.nav-tabs {
+    margin: 0px 0px 1px 0px;
+}
+
+.card li.nav-item {
+    width: 50%;
+}
+
+.card a.nav-link {
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    padding: 1rem;
+}
+
+.tile-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .tile-link:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card i {
+    color: #007bff;
+}
+
+/* Style for the navbar to have rounded borders */
+.navbar {
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 -5px 10px rgba(5, 5, 5, 2);
+    background-color: #40587C;
+}
+
+.rounded-navbar {
+    border-radius: 15px; /* Adjust the value for more or less rounding */
+    /* Optional: Add a border for visibility */
+}
+
+/* Optional: Add more specific styles for inner elements like navbar links */
+.navbar-nav .nav-link {
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Slight background on hover */
+    }
+
+.page-background {
+    background-color: #f0f2f5; /* Light greyish background */
+    padding: 30px;
+    min-height: 100vh; /* Ensure background color covers entire viewport height */
+}
+
+.footer {
+    margin: 10px 10px 10px 10px;
+    color: black;
+    text-align: center;
+}
+
+.pb-0 {
+   
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Add spacing between items */
+}

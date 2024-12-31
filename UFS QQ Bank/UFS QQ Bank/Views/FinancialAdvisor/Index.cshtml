@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Menu";
+}
+
+
+<style>
+
+    body {
+        background-color: silver;
+        font-family: Arial, sans-serif;
+    }
+
+    .bg-image {
+        background-image: url('/Images/20200430211816-378f6275.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+
+    .tile-link {
+        text-decoration: none;
+        background-color: transparent;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .tile-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+        }
+</style>
+
+
+<div class="container mt-5 bg-image">
+    <h2 class="text-center mb-4">Financial Advisor Menu</h2>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+            <a asp-action="BankAccounts" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-wallet fa-3x mb-3"></i>
+                    <h5 class="card-title">View BankAccounts</h5>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 mb-4">
+            <a asp-action="ViewAllAdvice" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-wallet fa-3x mb-3"></i>
+                    <h5 class="card-title">View BankAccount Advice</h5>
+                </div>
+            </a>
+        </div>
+
+
+       
+    </div>
+</div>

@@ -1,0 +1,116 @@
+﻿@model RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<link href="~/styles/account/register.css" rel="stylesheet" />
+<script src="~/javascript/account/register.js"></script>
+
+
+<div class="register-page">
+    <div class="register-card">
+        <div class="card-header register-header">
+            <h2>Sign Up</h2>
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Login" asp-controller="Account">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" asp-action="Register" asp-controller="Account">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+            <form class="row g-3" asp-action="Register" method="post">
+
+                <div class="row g-3 align-items-center">
+                
+                    <div class="form-floating col-md-6">
+                        <select class="form-select" asp-for="UserType" id="userTypeDropdown" placeholder="User Type" required>
+                            <option selected>Select user type</option>
+                            <option value="Staff">Staff</option>
+                            <option value="Student">Student</option>
+                            <option value="External User">External User</option>
+                        </select>
+                        <label asp-for="UserType">User Type</label>
+                    </div>
+
+                  
+                    <div class="form-floating col-md-6" id="staffStudentNumberContainer" style="display: none;">
+                        <input asp-for="StaffStudentNumber" class="form-control" placeholder="Staff/Student Number" required/>
+                        <label asp-for="StaffStudentNumber">Staff/Student Number</label>
+                    </div>
+                </div>
+               
+
+
+              
+                <div class="form-floating col-md-4">
+                    <input asp-for="LastName" class="form-control" placeholder="Last Name" required />
+                    <label asp-for="LastName" class="form-label">Last Name</label>
+                </div>
+
+                
+                <div class="form-floating col-md-4">
+                    <input asp-for="FirstName" class="form-control" placeholder="First Name" required />
+                    <label asp-for="FirstName" class="form-label">First Name</label>
+                </div>
+
+                <div class="form-floating col-md-4">
+                    <select class="form-select" asp-for="Gender" placeholder="Gender" required>
+                        <option selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label asp-for="Gender">Gender</label>
+                </div>
+
+      
+                <div class="form-floating col-md-6">
+                    <input  class="form-control" type="date" placeholder="Date of Birth" required />
+                    <label  class="form-label">Date of Birth</label>
+                </div>
+
+                <div class="form-floating col-md-6">
+                    <input asp-for="IDPassportNumber" class="form-control" placeholder="ID/Passport Number" required />
+                    <label asp-for="IDPassportNumber" class="form-label">ID/Passport Number</label>
+                </div>
+
+             
+                <div class="form-floating col-md-6">
+                    <input asp-for="Phone" class="form-control" type="number" placeholder="Phone Number" required />
+                    <label asp-for="Phone" class="form-label">Phone Number</label>
+                </div>
+
+           
+                <div class="form-floating col-md-6">
+                    <input asp-for="Email" class="form-control" type="email" placeholder="Email" required />
+                    <label asp-for="Email" class="form-label">Email</label>
+                </div>
+
+               
+                <div class="form-floating col-md-6">
+                    <input asp-for="Password" class="form-control" type="password" placeholder="Password" required />
+                    <label asp-for="Password" class="form-label">Password</label>
+                </div>
+
+                
+                <div class="form-floating col-md-6">
+                    <input asp-for="ConfirmPassword" class="form-control" type="password" placeholder="Confirm Password" required />
+                    <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                </div>
+
+              
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<link href="~/styles/index.css" rel="stylesheet" />
+
+
+<div class="container mt-5 bg-image">
+    <div class="row">
+        <div class="col-md-12 overlay text-center">
+            <h3 class="text-black"><strong>Welcome to QwaQwa Kovsie Bank</strong></h3>
+            <p>Discover seamless banking services, secure transactions, and personalized financial management. Get started today!</p>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+     
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-file-shield fa-2x"></i>
+                    <h5 class="card-title">Secure Account Management</h5>
+                    <p class="card-text">Manage your accounts securely. View balances and transaction history.</p>
+                </div>
+            </div>
+        </div>
+
+     
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-piggy-bank fa-2x"></i>
+                    <h5 class="card-title">Withdrawal & Deposits</h5>
+                    <p class="card-text">Withdraw or deposit money securely.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-money-bill-transfer fa-2x"></i>
+                    <h5 class="card-title">Perform Transactions</h5>
+                    <p class="card-text">Transfer money between accounts or receive funds from others.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+                    <h5 class="card-title">Mobile Functionality</h5>
+                    <p class="card-text">Use the mobile app for transactions anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a class="btn  btn-outline-light btn-lg mt-5" asp-action="Index" asp-controller="@((User.IsInRole("Client") ? "ClientMenu" : User.IsInRole("Consultant") ? "Consultant" : User.IsInRole("Admin") ? "Admin" : User.IsInRole("Financial advisor") ?  "FinancialAdvisor": ""))">
+                    @(User.IsInRole("Client") ? "Get Started" : User.IsInRole("Consultant") ? "Consultant Control Panel" : User.IsInRole("Admin") ? "Admin Control Panel" : User.IsInRole("Financial advisor") ? "Financial Advisor Control Panel" : "")
+                </a>
+            }
+            else
+            {
+                <a class="btn btn-outline-light btn-lg mt-5" asp-action="Register" asp-controller="Account">Register for an Account</a>
+            }
+        </div>
+    </div>
+</div>

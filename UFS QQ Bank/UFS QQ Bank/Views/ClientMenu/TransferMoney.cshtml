@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Transfer Money";
+}
+
+<div class="container mt-5 style="background-color: #1D1D2C"">
+ 
+    <h2 class="text-center mb-4">Transfer Money</h2>
+
+   
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-info text-center">
+            @ViewBag.Message
+        </div>
+    }
+
+  
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <form asp-action="TransferMoney" method="post">
+                      
+                        <div class="form-group mb-3">
+                            <label for="receiverAccountNumber" class="form-label">Receiver Account Number</label>
+                            <input type="text" class="form-control" id="receiverAccountNumber" name="receiverAccountNumber" placeholder="Enter account number" required />
+                        </div>
+
+                       
+                        <div class="form-group mb-3">
+                            <label for="amount" class="form-label">Amount</label>
+                            <input type="number" class="form-control" id="amount" name="amount" placeholder="Enter amount" required step="0.01" />
+                        </div>
+
+                      
+                        <div class="form-group mb-4">
+                            <label for="reference" class="form-label">Reference</label>
+                            <input type="text" class="form-control" id="reference" name="reference" placeholder="Enter reference" required />
+                        </div>
+
+                       
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100" onclick="return confirm('Are you sure you want to send money?')">Submit Transfer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Back Button -->
+            <div class="text-center mt-3">
+                <a asp-controller="ClientMenu" asp-action="Index" class="btn btn-outline-danger">Back to Menu</a>
+            </div>
+        </div>
+    </div>
+</div>

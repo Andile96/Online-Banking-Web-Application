@@ -1,0 +1,95 @@
+﻿@model RegisterModel
+<div>
+
+</div>
+<div class="form-floating col-md-4">
+
+    <input asp-for="LastName" class="form-control" placeholder="LastName" required />
+    <label asp-for="LastName" class="form-label"></label>
+</div>
+<div class="form-floating col-md-4">
+
+    <input asp-for="FirstName" class="form-control" placeholder="FirstName" required />
+    <label asp-for="FirstName" class="form-label"></label>
+</div>
+
+<div class="form-floating col-md-4">
+    <select class="form-select" asp-for="Gender" placeholder="Gender" required>
+        <option selected>Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <label asp-for="Gender"></label>
+</div>
+
+<div class="form-floating col-md-6">
+
+    <input asp-for="DateOfBirth" class="form-control text-center" type="date" placeholder="DoB" required />
+    <label asp-for="DateOfBirth" class="form-label"></label>
+</div>
+<div class="form-floating col-md-6">
+
+    <input asp-for="IDPassportNumber" class="form-control" placeholder="IDPassport" required />
+    <label asp-for="IDPassportNumber" class="form-label"></label>
+</div>
+
+<div class="form-floating col-md-6">
+
+    <input asp-for="Phone" class="form-control" type="number" placeholder="Phone" required />
+    <label asp-for="Phone" class="form-label"></label>
+</div>
+<div class="form-floating col-md-6">
+
+    <input asp-for="Email" class="form-control" type="email" placeholder="email" required />
+    <label asp-for="Email" class="form-label"></label>
+</div>
+<div class="form-floating col-md-6" >
+    <select class="form-select" asp-for="UserType" placeholder="UserType" required id="userTypeDropdown">
+        <option selected>Select user type</option>
+        <option value="Staff">Staff</option>
+        <option value="Student">Student</option>
+        <option value="External User">External user</option>
+    </select>
+    <label asp-for="UserType"></label>
+</div>
+<div class="form-floating col-md-6" id="staffStudentNumberContainer" style="display:none;">
+    <input asp-for="StaffStudentNumber" class="form-control" placeholder="StaffStudentNumber" required />
+    <label asp-for="StaffStudentNumber" class="form-label"></label>
+</div>
+
+<div class="form-floating col-md-6">
+
+    <input asp-for="Password" class="form-control" type="password" placeholder="Password" required />
+    <label asp-for="Password" class="form-label"></label>
+</div>
+@if (!User.IsInRole("Admin"))
+{
+    <div class="form-floating col-md-6">
+        <input asp-for="ConfirmPassword" class="form-control" type="password" placeholder="ConfPass" required />
+        <label asp-for="ConfirmPassword" class="form-label"></label>
+    </div>
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        
+        $('#staffStudentNumberContainer').hide();
+        $('#staffStudentNumberContainer label').hide();
+
+    
+        $('#userTypeDropdown').change(function () {
+            var selectedUserType = $(this).val();
+
+           
+            if (selectedUserType === 'Staff' || selectedUserType === 'Student') {
+                $('#staffStudentNumberContainer').show();
+                $('#staffStudentNumberContainer label').show();  
+            } else {
+                $('#staffStudentNumberContainer').hide();
+                $('#staffStudentNumberContainer label').hide(); 
+            }
+        });
+    });
+</script>

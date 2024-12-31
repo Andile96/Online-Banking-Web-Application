@@ -1,0 +1,58 @@
+﻿body {
+   
+    background-image: url('/Images/20200430211816-378f6275.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.bg-image {
+   
+    height: 100vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.overlay {
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(15,23,42,0.3);
+    box-shadow: 10px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    color: silver;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+.fa-solid {
+    color: #f0f2f5;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+
+
+.container {
+    max-width: 100%;
+}

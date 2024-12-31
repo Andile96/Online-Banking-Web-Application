@@ -1,0 +1,173 @@
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\appsettings.Development.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\appsettings.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\libman.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.staticwebassets.runtime.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.exe
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.deps.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.runtimeconfig.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.pdb
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Azure.Core.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Azure.Identity.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Humanizer.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.CodeDom.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.IO.Packaging.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Memory.Data.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.csproj.AssemblyReference.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.AssemblyInfoInputs.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.AssemblyInfo.cs
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.csproj.CoreCompileInputs.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.MvcApplicationPartsAssemblyInfo.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.RazorAssemblyInfo.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.RazorAssemblyInfo.cs
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets.build.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets.development.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets\msbuild.UFS QQ Bank.Microsoft.AspNetCore.StaticWebAssets.props
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets\msbuild.build.UFS QQ Bank.props
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UFS QQ Bank.props
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UFS QQ Bank.props
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets.pack.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\scopedcss\bundle\UFS QQ Bank.styles.css
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ B.08D8E968.Up2Date
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\refint\UFS QQ Bank.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.pdb
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\UFS QQ Bank.genruntimeconfig.cache
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\ref\UFS QQ Bank.dll
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\bin\Debug\net8.0\UFS QQ Bank.staticwebassets.endpoints.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets\msbuild.UFS QQ Bank.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\CSIQ3784\Project\UFS QQ Bank\UFS QQ Bank\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

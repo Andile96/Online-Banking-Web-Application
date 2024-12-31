@@ -1,0 +1,50 @@
+﻿@model BankAccountViewModel
+
+@{
+    ViewData["Title"] = "Clients";
+}
+
+<link href="~/styles/clients/accountinfor.css" rel="stylesheet" />
+
+<div class="overlay">
+ 
+    <div class="card shadow-lg">
+        <div class="card-header">
+            <h2>Client Bank Account Information</h2>
+        </div>
+        <div class="card-body">
+          
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Account Holder:</label>
+                    <p class="form-control-plaintext">@Model.AccountHolder</p>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Bank Account No:</label>
+                    <p class="form-control-plaintext">@Model.AccountNumber</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Account Type:</label>
+                    <p class="form-control-plaintext">@Model.AccountType</p>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Bank Balance:</label>
+                    <p class="form-control-plaintext">@Model.AccountBalance.ToString("C")</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label fw-bold">Account Opened On:</label>
+                    <p class="form-control-plaintext">@Model.AccountOpenDate.ToString("MMMM dd, yyyy")</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <a asp-action="ClientUsers" class="btn btn-outline-danger">Cancel</a>
+        </div>
+    </div>
+</div>

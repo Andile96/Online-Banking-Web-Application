@@ -1,0 +1,21 @@
+﻿body {
+    background-color: silver;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.card-header {
+    font-size: 1.25rem;
+}
+
+.card-body {
+    font-size: 1.1rem;
+}
+
+h3.text-primary {
+    font-size: 2rem;
+}

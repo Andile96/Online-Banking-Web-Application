@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Menu";
+}
+
+<link href="~/styles/clientmenu/index.css" rel="stylesheet" />
+
+<div class="container mt-5 bg-image">
+    <h2 class="text-center mb-4">Account Menu</h2>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <a asp-controller="ClientMenu" asp-action="Balance" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-wallet fa-3x mb-3"></i>
+                    <h5 class="card-title">View Balance</h5>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <a asp-controller="ClientMenu" asp-action="Profile" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-user fa-3x mb-3"></i>
+                    <h5 class="card-title">Personal Information</h5>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <a asp-controller="ClientMenu" asp-action="AccountInfor" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-info-circle fa-3x mb-3"></i>
+                    <h5 class="card-title">Account Information</h5>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <a asp-controller="ClientMenu" asp-action="TransferMoney" class="card text-center shadow-sm tile-link">
+                <div class="card-body">
+                    <i class="fas fa-exchange-alt fa-3x mb-3"></i>
+                    <h5 class="card-title">Transfer Funds</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Leave a comment link at the bottom right -->
+<a asp-controller="Reviews" asp-action="WriteReview" class="comment-link">
+    <i class="fa-solid fa-comment-dots"></i> Leave a comment
+</a>
